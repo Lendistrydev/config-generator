@@ -2557,5 +2557,39 @@
     "displayName": "Amplitude",
     "createdAt": "2019-09-02T08:08:05.613Z",
     "updatedAt": "2020-11-23T18:06:26.219Z"
+  },
+  {
+    "config": {
+      "destConfig": {
+        "defaultConfig": [
+          "userName",
+          "password",
+          "initialAccessToken"
+        ]
+      },
+      "secretKeys": [
+        "password",
+        "initialAccessToken"
+      ],
+      "excludeKeys": [],
+      "includeKeys": [],
+      "transformAt": "processor",
+      "supportedSourceTypes": [
+        "android",
+        "ios",
+        "web",
+        "unity",
+        "amp",
+        "cloud",
+        "reactnative"
+      ],
+      "saveDestinationResponse": false
+    },
+    "responseRules": null,
+    "id": "1QGzO4fWSyq3lsyFHf4eQAMDoot",
+    "name": "SALESFORCE_PARDOT",
+    "displayName": "Salesforce Pardot",
+    "createdAt": "2019-11-04T10:00:11.961Z",
+    "updatedAt": "2020-10-30T09:35:14.166Z"
   }
 ]

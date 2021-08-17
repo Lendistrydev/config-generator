@@ -22,6 +22,7 @@ import { ReactComponent as AF } from '@svg/af.svg';
 import { ReactComponent as MAILCHIMP } from '@svg/mailchimp.svg';
 import { ReactComponent as HOTJAR } from '@svg/hotjar.svg';
 import { ReactComponent as SALESFORCE } from '@svg/salesforce.svg';
+import { ReactComponent as SALESFORCE_PARDOT } from '@svg/salesforce_pardot.svg';
 import { ReactComponent as SEGMENT } from '@svg/segment.svg';
 import { ReactComponent as AUTOPILOT } from '@svg/autopilot.svg';
 import { ReactComponent as GOOGLEADS } from '@svg/googleads.svg';
@@ -137,6 +138,8 @@ const DestinationIcon = (props: any) => {
       return <GOOGLESHEETS width={width} height={height} />;
     case 'salesforce':
       return <SALESFORCE width={width} height={height} />;
+    case 'salesforce_pardot':
+      return <SALESFORCE_PARDOT width={width} height={height} />;
     case 'hubspot':
       return <HUBSPOT width={width} height={height} />;
     case 'segment':

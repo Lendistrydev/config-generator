@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Connection Settings",
+    "fields": [
+      {
+        "type": "textInput",
+        "label": "User Name",
+        "value": "userName",
+        "regex": ".*",
+        "required": true,
+        "placeholder": "User name for salesforce login"
+      },
+      {
+        "type": "textInput",
+        "label": "Password",
+        "value": "password",
+        "inputFieldType": "password",
+        "regex": ".*",
+        "required": true,
+        "placeholder": "Password for salesforce login",
+        "secret": true
+      },
+      {
+        "type": "textInput",
+        "label": "Consumer Key",
+        "value": "consumerKey",
+        "regex": ".*",
+        "required": true,
+        "placeholder": "Consumer Key for pardot api request",
+        "secret": true
+      },
+      {
+        "type": "textInput",
+        "label": "Consumer Secret",
+        "value": "consumerSecret",
+        "regex": ".*",
+        "required": true,
+        "placeholder": "Consumer Secret for pardot api request",
+        "secret": true
+      },
+      {
+        "type": "textInput",
+        "label": "Pardot Business Unit Id",
+        "value": "businessUnitId",
+        "regex": ".*",
+        "required": true,
+        "placeholder": "Pardot Business unit id for api request",
+        "secret": true
+      }
+    ]
+  }
+]

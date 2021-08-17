@@ -75,6 +75,7 @@ const destinationList = {
   "VWO": require('./VWO.json'),
   "WEBHOOK": require('./WEBHOOK.json'),
   "ZENDESK": require('./ZENDESK.json'),
+  "SALESFORCE_PARDOT": require('./SALESFORCE_PARDOT.json'),
 }
 export {
   destinationList
